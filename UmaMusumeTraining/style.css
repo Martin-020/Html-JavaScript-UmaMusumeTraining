@@ -1,0 +1,67 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+}
+
+.form-select,
+.form-check-input {
+  border-radius: 8px;
+}
+
+#supportCards .border {
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: #f8f9fa;
+}
+
+#supportCards .border:hover {
+  transform: scale(1.03);
+  background-color: #e9ecef;
+}
+
+#supportCards .col-md-4 {
+  min-width: 180px;
+}
+
+.table thead {
+  background-color: #f1f1f1;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-bordered {
+  border-color: #dee2e6;
+}
+
+.fw-bold.fs-5 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  #supportCards .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
